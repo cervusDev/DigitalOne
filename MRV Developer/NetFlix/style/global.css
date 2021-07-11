@@ -1,0 +1,24 @@
+:root {
+  --red: #E50914;
+  --black: #141414;
+  --nav: #aaa;
+  --nav-hover: #fff;
+
+  --font-root: 'Arial', Times, serif;
+  --font-logo:  Arial, Helvetica, sans-serif;
+  --font-movie: 'Trebuchet MS', Arial, sans-serif;
+
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--black);
+  font-family: var(--font-root);
+  color: white;
+}

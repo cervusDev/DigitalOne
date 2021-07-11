@@ -1,0 +1,14 @@
+@media screen and (max-width: 70rem) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and (min-width: 100rem) {
+  main .movie-focus p {
+    width: 50%;
+  }
+}
+
